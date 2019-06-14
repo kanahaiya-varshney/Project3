@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:padding="10dp"
+        android:elevation="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snapseed"
+        android:textSize="25dp"
+        android:elevation="10dp"
+        android:textColor="#E75001"
+        />
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/back"/>
+    <Button
+        android:layout_width="250dp"
+        android:id="@+id/signUp_button"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/back"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
